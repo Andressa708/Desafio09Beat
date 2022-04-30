@@ -1,24 +1,19 @@
 *{
-    
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
 
-/*Container que engloba toda a header principal*/
 .container_header{
-    background-color:#129799;
-    max-width: 1920px;
+    background-color: #129799;
+    max-width:1920px;
     width: 100%;
-    margin:  auto;
-    height:640px;
+    margin: auto;
+    height: 640px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     color: #f7f7f7;
-
-
-   
-
 }
+
