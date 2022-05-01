@@ -11,9 +11,60 @@
     margin: auto;
     height: 640px;
     display: flex;
+    /*Flex-direction é uma propriedade para especificar uma direção dos itens flexiveis*/
     flex-direction: column;
+    /*A propriedade align-items serve para estabelecer um valor*/
     align-items: center;
     justify-content: space-between;
     color: #f7f7f7;
 }
 
+nav{
+    width: 80%;
+    font-size: 15px;
+    padding:2vh;
+
+}
+
+/*Estilizar a ul da header geral*/
+.container_header ul{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 2em;
+    list-style: none;
+}
+
+/*Definição do tamanho do container_menu*/
+.container_menu{
+    width: 60%;
+}
+
+/*ajustar o tamanho do container_menu--list*/
+
+.container_menu--list{
+    width: 20%;
+}
+
+/*Estilizar a class container header li*/
+.container_header li{
+    width: 40%;
+    text-align: center;
+}
+
+/*container_header li:hover
+(hover corresponde quando o usuário designa um elemento apontador, mas não está ativada.)*/
+.container_header li:hover{
+    font-weight:700;
+    cursor: pointer;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.7vw;
+}
+
+div img{
+    width: 33.3vw;
+}
